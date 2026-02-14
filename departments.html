@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Departments - CCET</title>
+<link rel="stylesheet" href="styles.css">
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+    const cards = document.querySelectorAll('.flip-card');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('flipped');
+        });
+    });
+});
+</script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+    <div class="container">
+        <div class="logo-section">
+            <img src="logo.png" class="logo">
+            <div>
+                <h1>Christ College of Engineering and Technology</h1>
+                <p class="tagline">Excellence in Engineering Education</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+<div class="container">
+<ul class="nav-menu">
+<li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="leadership.html" class="nav-link">Leadership</a></li>
+<li><a href="news.html" class="nav-link">News & Events</a></li>
+<li><a href="committees.html" class="nav-link">Committees</a></li>
+<li><a href="facilities.html" class="nav-link">Facilities</a></li>
+<li><a href="departments.html" class="nav-link active">Departments</a></li>
+<li><a href="placements.html" class="nav-link">Placements</a></li>
+<li><a href="contact.html" class="nav-link">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+
+<!-- DEPARTMENTS SECTION -->
+<section class="section">
+<div class="container">
+
+<h2 class="section-title">Our Departments</h2>
+
+<div class="departments-grid">
+
+<!-- Each department card -->
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">💻</div>
+      <h3>Computer Science and Engineering</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To become a center of excellence in computer science education and research.</p>
+      <h4>Mission</h4>
+      <p>To equip students with strong programming skills, innovation mindset and ethical values.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">🌐</div>
+      <h3>Information Technology</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To develop skilled IT professionals ready for global challenges.</p>
+      <h4>Mission</h4>
+      <p>To provide quality education in emerging technologies and industry-oriented practices.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">📡</div>
+      <h3>Electronics and Communication Engineering</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To excel in electronics and communication systems education.</p>
+      <h4>Mission</h4>
+      <p>To promote innovation and research in communication technologies and embedded systems.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">⚡</div>
+      <h3>Electrical and Electronics Engineering</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To produce competent electrical engineers for sustainable development.</p>
+      <h4>Mission</h4>
+      <p>To provide strong foundation in power systems and renewable energy technologies.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">🛠️</div>
+      <h3>Mechanical Engineering</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To achieve excellence in mechanical engineering education and research.</p>
+      <h4>Mission</h4>
+      <p>To nurture innovative engineers with strong analytical and practical skills.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">🏗️</div>
+      <h3>Civil Engineering</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To develop civil engineers capable of designing sustainable infrastructure.</p>
+      <h4>Mission</h4>
+      <p>To impart quality education in structural, environmental and construction engineering.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">📊</div>
+      <h3>Master of Business Administration (MBA)</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To create dynamic business leaders with global perspective.</p>
+      <h4>Mission</h4>
+      <p>To provide industry-relevant management education with ethical values.</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-inner">
+    <div class="flip-front">
+      <div class="dept-icon">🖥️</div>
+      <h3>Master of Computer Applications (MCA)</h3>
+    </div>
+    <div class="flip-back">
+      <h4>Vision</h4>
+      <p>To produce competent software professionals with strong technical expertise.</p>
+      <h4>Mission</h4>
+      <p>To develop programming excellence and problem-solving skills in computing applications.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<div class="footer-bottom">
+<p>© 2026 Christ College of Engineering and Technology</p>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
